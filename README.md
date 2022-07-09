@@ -105,7 +105,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dsvariancepn;
+})();
 })();
 </script>
 ```
@@ -224,6 +226,7 @@ var v = dsvariancepn.ndarray( N, 1, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dsvariancepn@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -237,6 +240,7 @@ console.log( x );
 var v = dsvariancepn( x.length, 1, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -348,7 +352,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [variance]: https://en.wikipedia.org/wiki/Variance
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
@@ -358,13 +362,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dvariancepn]: https://github.com/stdlib-js/stats-base-dvariancepn/tree/umd
+[@stdlib/stats/base/dvariancepn]: https://github.com/stdlib-js/stats-base-dvariancepn/tree/umd/tree/umd
 
-[@stdlib/stats/base/dsvariance]: https://github.com/stdlib-js/stats-base-dsvariance/tree/umd
+[@stdlib/stats/base/dsvariance]: https://github.com/stdlib-js/stats-base-dsvariance/tree/umd/tree/umd
 
-[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats-base-variancepn/tree/umd
+[@stdlib/stats/base/variancepn]: https://github.com/stdlib-js/stats-base-variancepn/tree/umd/tree/umd
 
-[@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats-base-svariancepn/tree/umd
+[@stdlib/stats/base/svariancepn]: https://github.com/stdlib-js/stats-base-svariancepn/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
