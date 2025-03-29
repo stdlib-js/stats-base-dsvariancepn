@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-15)
+## Unreleased (2025-03-29)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`7bbf0ec`](https://github.com/stdlib-js/stdlib/commit/7bbf0ec16534e0c43126e16df414b73683824eb3) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`2cb9d07`](https://github.com/stdlib-js/stdlib/commit/2cb9d076ac8129702b76a672350a6c25068d5b26) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dsvariancepn` [(#5547)](https://github.com/stdlib-js/stdlib/pull/5547) _(by Prashant Kumar Yadav, Athan Reines, Aayush Khanna)_
 -   [`cce9542`](https://github.com/stdlib-js/stdlib/commit/cce9542a48a0fdc61d13219aadc8e2916d078a12) - **refactor:** update `stats/base/dsvariancepn` native addon from C++ to C [(#4886)](https://github.com/stdlib-js/stdlib/pull/4886) _(by Prashant Kumar Yadav)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
